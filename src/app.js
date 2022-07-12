@@ -5,7 +5,7 @@ const conexionBD = require('./db.conexion');
 const rutasHabitacion = require('./routes/habitaciones.routes');
 const rutasUser=require('./routes/users.routes');
 const app = express()
-
+const port= process.env.PORT || 3000;
 //Conexión a la BD
 conexionBD();
 
