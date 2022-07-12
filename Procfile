@@ -1,0 +1,1 @@
+web: npm <i class="fa fa-hourglass-start" aria-hidden="true"></i>
